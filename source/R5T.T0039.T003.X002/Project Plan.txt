@@ -1,0 +1,4 @@
+R5T.T0039.T003.X002 - Project /Code/Bases/Interfaces related extensions to the IEmptyExtensionMethodBaseDirectoryPathGenerator empty extension method base.
+
+Goals
+

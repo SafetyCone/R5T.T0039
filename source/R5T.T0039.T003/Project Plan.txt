@@ -1,0 +1,4 @@
+R5T.T0039.T003 - IEmptyExtensionMethodBaseDirectoryPathGenerator empty extension method base.
+
+Goals
+

@@ -1,0 +1,4 @@
+R5T.T0039.D002.I002 - Project /Code/Bases/Interfaces valued IEmptyExtensionMethodBasesDirectoryPathConvention service implementation.
+
+Goals
+

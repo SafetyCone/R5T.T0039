@@ -1,0 +1,4 @@
+R5T.T0039.D002.Base - IEmptyExtensionMethodBasesDirectoryPathConvention service definition.
+
+Goals
+
