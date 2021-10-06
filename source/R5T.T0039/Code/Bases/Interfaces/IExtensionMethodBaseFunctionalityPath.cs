@@ -8,8 +8,8 @@ namespace R5T.T0039
     /// <summary>
     /// Empty interface as base for extension methods.
     /// </summary>
-    [EmptyExtensionMethodBaseMarker]
-    public interface IEmptyExtensionMethodBase
+    [ExtensionMethodBaseMarker]
+    public interface IExtensionMethodBaseFunctionalityPath
     {
     }
 }

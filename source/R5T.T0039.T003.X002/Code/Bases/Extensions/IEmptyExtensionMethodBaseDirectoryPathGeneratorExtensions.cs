@@ -1,7 +1,5 @@
 ﻿using System;
 
-using R5T.Lombardy;
-
 using R5T.T0039.T003;
 using R5T.T0039.T003.X002;
 
@@ -10,15 +8,13 @@ namespace System
 {
     public static class IEmptyExtensionMethodBaseDirectoryPathGeneratorExtensions
     {
-        public static string GetEmptyExtensionMethodBaseDirectoryPath(this IEmptyExtensionMethodBaseDirectoryPathGenerator _,
-            string projectFilePath,
-            IStringlyTypedPathOperator stringlyTypedPathOperator)
+        public static string GetEmptyExtensionMethodBaseDirectoryPath(this IExtensionMethodBaseDirectoryPathGenerator _,
+            string projectFilePath)
         {
             var projectDirectoryPath = Instances.ProjectPathsOperator.GetCodeDirectoryPath(
-                projectFilePath,
-                stringlyTypedPathOperator);
+                projectFilePath);
 
-            var emptyExtensionMethodBaseDirectoryPath = stringlyTypedPathOperator.GetDirectoryPath(
+            var emptyExtensionMethodBaseDirectoryPath = Instances.PathOperator.GetDirectoryPath(
                 projectDirectoryPath,
                 Instances.CodeDirectoryName.Bases(),
                 Instances.CodeDirectoryName.Interfaces());

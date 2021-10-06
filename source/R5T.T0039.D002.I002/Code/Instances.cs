@@ -7,6 +7,6 @@ namespace R5T.T0039.D002.I002
 {
     public static class Instances
     {
-        public static IEmptyExtensionMethodBaseDirectoryPathGenerator EmptyExtensionMethodBaseDirectoryPathGenerator { get; } = T003.EmptyExtensionMethodBaseDirectoryPathGenerator.Instance;
+        public static IExtensionMethodBaseDirectoryPathGenerator EmptyExtensionMethodBaseDirectoryPathGenerator { get; } = T003.ExtensionMethodBaseDirectoryPathGenerator.Instance;
     }
 }
