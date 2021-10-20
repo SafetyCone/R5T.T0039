@@ -1,4 +1,1 @@
-R5T.T0039 - IEmptyExtensionMethodBase empty extension method base.
-
-Goals
-
+R5T.T0039 - IExtensionMethodBase, IExtensionMethodBaseName, and other extension method base-related extension method bases.
