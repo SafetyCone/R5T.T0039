@@ -1,10 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;using R5T.T0064;
 
 
 namespace R5T.T0039.D002.I002
-{
-    public class EmptyExtensionMethodBaseDirectoryPathConvention : IEmptyExtensionMethodBaseDirectoryPathConvention
+{[ServiceImplementationMarker]
+    public class EmptyExtensionMethodBaseDirectoryPathConvention : IEmptyExtensionMethodBaseDirectoryPathConvention,IServiceImplementation
     {
         public Task<string> GetEmptyExtensionMethodBaseDirectoryPath(string projectFilePath)
         {
